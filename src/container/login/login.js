@@ -1,6 +1,5 @@
 import React, {Component} from 'react'
-
-class Register extends Component{
+class Login extends Component{
     render(){
         return(
             <div>login</div>
@@ -8,4 +7,4 @@ class Register extends Component{
     }
 }
 
-export default Register;
+export default Login;
