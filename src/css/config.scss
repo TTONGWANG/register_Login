@@ -1,0 +1,39 @@
+$title_backgroundColor: #53a4bc;
+
+.box{
+  width: 400px;
+  height:600px;
+  border: 1px solid black;
+  margin: 100px auto;
+  background-color: #f7f7f7;
+  &_title{
+      height: 50px;
+      background-color: $title_backgroundColor;
+  }
+  &_img{
+    width: 250px;
+    height: 250px;
+    margin: 20px auto auto 60px;
+  }
+}
+
+.registerForm{
+  font-size: 1.2rem;
+  margin: 0.2rem 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+input{
+  height: 1.5rem;
+}
+
+.Button{
+  font-size: 1.2rem;
+  margin-top:1rem;
+  border-radius: 0.5rem;
+  outline: none; 
+  &:hover{
+      background-color: $title_backgroundColor;
+  } 
+}
